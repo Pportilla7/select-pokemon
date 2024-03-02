@@ -1,1 +1,30 @@
+html {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Esto hará que el contenedor html ocupe toda la altura de la pantalla */
+}
 
+ul {
+    list-style: none;
+    border: solid black 1px;
+    border-radius: 10%;
+    width: 250px;
+    height: 250px;
+    margin-top: 30px;
+    padding-top: 30px;
+}
+
+button {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 10px;
+    border-radius: 15px;
+  }
+  
+  button:hover{
+    transform: scale(1.2);
+  }
